@@ -156,6 +156,7 @@ Project Link: [https://github.com/sayuru-akash/hotel-reservation-system](https:/
 * Lochini Chamodya
 * Yasasi Rathnayake [View on GitHub](https://github.com/yasasirathnayake)
 * Suvindi Wimarsha [View on GitHub](https://github.com/suvindi)
+* Pyara Rathnayake
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
