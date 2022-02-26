@@ -9,8 +9,8 @@ import javax.mail.internet.MimeMessage;
 public class mailer {
 public static void send(String to,String subject,String msg){
 
-        final String username = "wooponlineshopping@gmail.com";
-        final String password = "$xXxYeFYe88X";
+        final String username = ""; //You can use your gmail account
+        final String password = ""; //You can use the password of your gmail account
 
         Properties prop = new Properties();
 		prop.put("mail.smtp.host", "smtp.gmail.com");
@@ -28,7 +28,7 @@ public static void send(String to,String subject,String msg){
         try {
 
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("wooponlineshopping@gmail.com"));
+            message.setFrom(new InternetAddress("")); //Enter the same email address entered above
             message.setRecipients(
                     Message.RecipientType.TO,
                     InternetAddress.parse(to)

@@ -11,15 +11,15 @@ import com.twilio.type.PhoneNumber;
 
 public class smssender{    
     public static void deliver(String num, String msg){
-        final String accountSid = "AC44f2d2763a3ba6446f5ad42debf55570";
-        final String authToken = "c39ac6b7ca1368db2727f0535dae3592";
+        final String accountSid = ""; //Get your accoundSID from Twilio and Use It
+        final String authToken = ""; //Get your authToken from Twilio and Use It
         Twilio.init(accountSid,authToken);
         
         try{
             Message message;
         message = Message.creator(
                 new PhoneNumber(num),
-                new PhoneNumber("+16065540872"),msg)
+                new PhoneNumber(""),msg) //Get your outgoing number from Twilio and Use It
                 .create();
         System.out.println("Done");
         }
@@ -27,6 +27,3 @@ public class smssender{
         }
     }
 }
-
-//whatsapp:+14155238886 wa-sms sender
-//+16065540872 sms sender
