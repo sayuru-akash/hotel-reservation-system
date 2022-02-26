@@ -141,7 +141,7 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/sayuru_akash) - contact@sayuru.me
+Sayuru Akash - [@sayuru_akash](https://twitter.com/sayuru_akash) - contact@sayuru.me
 
 Project Link: [https://github.com/sayuru-akash/hotel-reservation-system](https://github.com/sayuru-akash/hotel-reservation-system)
 
