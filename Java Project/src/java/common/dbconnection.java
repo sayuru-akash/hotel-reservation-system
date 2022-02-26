@@ -19,7 +19,7 @@ public class dbconnection {
 		Connection connection = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hrhotel", "root", "");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hrhotel", "root", ""); //SetUp changes to connect with your DB
 		} catch (Exception e) {
 			System.out.println(e);
 		}

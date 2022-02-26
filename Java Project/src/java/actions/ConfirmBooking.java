@@ -84,6 +84,7 @@ public class ConfirmBooking extends HttpServlet {
                     codate = rs.getString(4);
                     total = rs.getInt(5);
                 }
+                
                 ReservationCounter reservationcounter = new ReservationCounter();
                 ReservationThread t1 = new ReservationThread(reservationcounter, adults, children, cidate, codate, total, uidnum, fname, email, mobile);
                 ReservationThread t2 = new ReservationThread(reservationcounter, adults, children, cidate, codate, total, uidnum, fname, email, mobile);
