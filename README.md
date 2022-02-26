@@ -152,9 +152,10 @@ Project Link: [https://github.com/sayuru-akash/hotel-reservation-system](https:/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Isuru Pathirathna[https://github.com/Is116]
+* Lochini Chamodya
+* Yasasi Rathnayake[https://github.com/yasasirathnayake]
+* Suvindi Wimarsha[https://github.com/suvindi]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
